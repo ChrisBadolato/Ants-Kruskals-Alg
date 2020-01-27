@@ -29,7 +29,7 @@ public class AntsKruskal {
             int numberOfHills = input.nextInt();
             int numberOfTunnels = input.nextInt();
             Kruskals newKruskal = new Kruskals(numberOfHills);   
-            System.out.println("poop" + currentCampus);
+            
                 //loop through the number of tunnels creating edges for each one
                 //to add to the priority queue.
             for(int i = 0; i < numberOfTunnels; i++ )  {  
